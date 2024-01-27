@@ -1,0 +1,85 @@
+$primaryColor: rgb(33, 33, 33);
+.jis{
+    background-color: aqua;
+    color: #ffffff;
+    border-radius: 30%;}
+header {
+    background-image: url(../imj/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+    nav {
+        background-color: $primaryColor;
+        ul {
+            li {
+                a {
+                    color: rgb(255, 255, 255) !important;
+                    margin: 30px;
+                    &:hover {
+                        color: rgb(123, 123, 123);
+                    }
+                }
+            }
+        }
+        .loy{
+            width: 100px;
+            height: 200px;
+
+        }
+    }
+}
+
+.sec1 {
+    background-image: url(../imj/10.webp);
+    padding: 100px;
+}
+
+.vil {
+    color: rgb(255, 255, 255);
+}
+
+.sec2 {
+    padding: 80px;
+    img {
+        width: 100%;
+    }
+}
+
+.sec3 {
+    background-image: url(../imj/8.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 50px;
+    .con {
+        background-color: aliceblue;
+        padding: 40px;
+        width: 500px;
+        height: 400px;
+    }
+}
+
+.sec4 {
+    
+    background-image: url(../imj/9.webp);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec5 {
+    padding: 50px;
+    background-image: url(../imj/8.webp);
+    .ro2 {
+        padding: 50px;
+        background-color: aliceblue;
+        input {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+    }
+}
